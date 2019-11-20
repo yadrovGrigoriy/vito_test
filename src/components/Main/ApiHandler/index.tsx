@@ -30,6 +30,7 @@ export default class ApiHendler extends React.Component<Props, State> {
     };
 
     getResult = () => {
+        if (this.state.inputValue === '') return;
         this.setState({
             isloading: true
         });
