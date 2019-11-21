@@ -5,10 +5,10 @@ const Menu: React.FC = () => {
     return (
         <div className="header__menu">
             <Link className="header__menu-item" to="/apisearch">
-                Api Search
+                Api search
             </Link>
             <Link className="header__menu-item" to="/image">
-                Image Handler
+                Image handler
             </Link>
         </div>
     );
